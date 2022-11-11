@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Dice</string>
+    <string name="rollDice">Roll Dice</string>
+    <string name="reset">Reset</string>
+
+    <drawable name="diceresult1">@drawable/dice1</drawable>
+    <drawable name="diceresult2">@drawable/dice2</drawable>
+    <drawable name="diceresult3">@drawable/dice3</drawable>
+    <drawable name="diceresult4">@drawable/dice4</drawable>
+    <drawable name="diceresult5">@drawable/dice5</drawable>
+    <drawable name="diceresult6">@drawable/dice6</drawable>
 </resources>
