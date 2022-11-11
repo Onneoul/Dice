@@ -8,16 +8,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    <Button-->
-<!--        android:id="@+id/roll"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginHorizontal="160dp"-->
-<!--        android:layout_marginTop="32dp"-->
-<!--        android:onClick="onClickRoll"-->
-<!--        android:text="@string/rollDice"-->
-<!--        tools:ignore="UsingOnClickInXml" />-->
-
     <ImageButton
         android:id="@+id/roll"
         android:layout_width="wrap_content"
@@ -55,14 +45,13 @@
                 android:textSize="20sp"
                 />
         </LinearLayout>
-
     </ScrollView>
 
     <Button
         android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="160dp"
+        android:layout_gravity="center_horizontal"
         android:onClick="onClickReset"
         android:text="@string/reset"
         tools:ignore="UsingOnClickInXml" />
