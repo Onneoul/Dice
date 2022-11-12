@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
+
     Random random = new Random();
 
     ArrayList<String> list = new ArrayList<>(); // List는 시도횟수 + 눈의 값을 String으로 만들어 저장
